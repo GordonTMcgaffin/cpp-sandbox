@@ -8,10 +8,9 @@
 using namespace std;
 
 int main() {
-
-    int my_age = 500;
-    cout << "Hello world, this is c++";
-    cout << "\n" << my_age;
+    string name ;
+    cout << "Hello world, this is c++ what is your name:\n";
+    cin >> name;
+    cout << "My name is " << name;
     return 0;
-
 }
