@@ -44,7 +44,6 @@ int main() {
       : "Good evening.";
     cout << message;
     return 0;
-
 }
 
 void my_function() {
