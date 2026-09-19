@@ -1,0 +1,3 @@
+/home/gordon/Code/cpp-sandbox/build/CMakeFiles/cpp_sandbox.dir
+/home/gordon/Code/cpp-sandbox/build/CMakeFiles/edit_cache.dir
+/home/gordon/Code/cpp-sandbox/build/CMakeFiles/rebuild_cache.dir

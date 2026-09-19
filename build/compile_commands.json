@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/gordon/Code/cpp-sandbox/build",
+  "command": "/usr/bin/clang++ -I/home/gordon/Code/cpp-sandbox/Printing/. -g -std=gnu++14 -o CMakeFiles/cpp_sandbox.dir/main.cpp.o -c /home/gordon/Code/cpp-sandbox/Printing/main.cpp",
+  "file": "/home/gordon/Code/cpp-sandbox/Printing/main.cpp",
+  "output": "/home/gordon/Code/cpp-sandbox/build/CMakeFiles/cpp_sandbox.dir/main.cpp.o"
+}
+]

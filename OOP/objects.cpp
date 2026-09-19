@@ -2,40 +2,48 @@
 
 using namespace std;
 
-class human{
+class Human{
     // Note: By default, all members of a class are private if you don't specify an access specifier
     public:
         string name;
         int age;
 
-        human(string name, int age){
+        Human(string name, int age){
 
-            human::name = name;
-            human::age = age; 
+            Human::name = name;
+            Human::age = age; 
+
+        }
+
+        Human(){
+
+            Human::name = "Jin";
+            Human::age = 26; 
 
         }
 
         void set_id(int id){
-            human::id = id;
+            Human::id = id;
         }
 
         int get_id();
 
-        friend void friend_id(human man); // <-- Friends can access private variables. 
+        friend void friend_id(Human man); // <-- Friends can access private variables. 
+    
     private:
         int id;
 };
 
-int human::get_id(){ // <-- Function definitions can also be defined outside of the class.
-    return human::id;
+int Human::get_id(){ // <-- Function definitions can also be defined outside of the class.
+    return Human::id;
 }
 
-void friend_id(human man){
+void friend_id(Human man){
     cout << "The humans secret id is " << man.id << "\n";
 }
 
 int main(){
-    human man("Gordon", 25);
+    Human man("Gordon", 25);
 
     man.set_id(10100101);
 
