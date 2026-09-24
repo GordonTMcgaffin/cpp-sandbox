@@ -25,6 +25,8 @@ class Job{
 class Me: public Human, public Job{
 
     public:
+        int age = 26; //overridin
+
         string get_info(){
             return "Hi my name is " + name + ", I am "  + to_string(age) + " years old. I work for " + comanpany + " as a " + job_title + "\n";
         }
