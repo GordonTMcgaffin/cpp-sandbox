@@ -1,0 +1,4 @@
+The current time is Thu Sep 24 19:38:55 2026
+The current year is Thu Dec 17 12:30:01 2026
+This is the second of many lines I am writng to a file in C++!
+I am excited to learn C++!
